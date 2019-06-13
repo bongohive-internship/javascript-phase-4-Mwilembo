@@ -3,8 +3,8 @@
 var recipe = {
   title: "Breaded chicken",
   servings: 4,
-  ingredients: ["chicken","breadcrumbs","eggs","flour"]
+  ingredients: ["chicken"," breadcrumbs"," eggs"," flour"]
 };
-console.log(recipe.title);
-console.log(recipe.servings);
-console.log(recipe.ingredients);
+document.write(recipe.title+"<br>");
+document.write("Serves: "+recipe.servings+"<br>");
+document.write("Ingredients: "+recipe.ingredients+"<br>");
